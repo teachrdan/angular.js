@@ -1391,7 +1391,7 @@ order to make it more secure by default, a couple of breaking changes have been 
 Due to [181fc567](https://github.com/angular/angular.js/commit/181fc567d873df065f1e84af7225deb70a8d2eb9),
 SVG support in `$sanitize` is now an opt-in feature (i.e. disabled by default), as it could make
 an application vulnerable to click-hijacking attacks. If your application relies on it, you can
-still turn it on with `$sanitizeProvider.enableSvg(true)`, but you extra precautions need to be
+still turn it on with `$sanitizeProvider.enableSvg(true)`, but extra precautions need to be
 taken in order to keep your application secure. Read the documentation for more information about
 the dangers and ways to mitigate them.
 
